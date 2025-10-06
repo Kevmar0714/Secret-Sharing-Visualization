@@ -1,6 +1,5 @@
 import streamlit as st
 import plotly.graph_objects as go
-import matplotlib.pyplot as plt
 import numpy as np
 
 from logic.shamir import make_shares, lagrange_interpolate_at_zero, gf
